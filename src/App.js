@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Logbook from './components/Logbook' 
+import Logbook2 from './components/Logbook2' 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Logbook/>
-      </header>
+    <div>
+      <Logbook2/>     
     </div>
   );
 }
